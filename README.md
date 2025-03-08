@@ -9,4 +9,8 @@ Run `ng serve` para um novo servidor de desenvolvimento. Navegue até `http://lo
 ## Resultado do desenvolvimento
 - página home:
 
-<img src="/assets/">
+<img src="src/assets/home.png">
+
+- página da postagem:
+
+<img src="src/assets/postagem.png">
