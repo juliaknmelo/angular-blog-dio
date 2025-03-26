@@ -17,18 +17,33 @@
   }
 }
 
-.big-card__title > h1  {
-  margin-top: 15px;
-  font-size: 20px;
+.container__big-card:hover{
+  transform: scale(1.04);
+  cursor: pointer;
+}
+
+.big-card__text{
+  padding-top: 10px;
+}
+
+.big-card__title > p  {
+  font-size: 22px;
+  font-family: Georgia;
+  font-weight: bold;
 }
 
 .big-card__description{
   margin-top: 20px;
+
 }
 
-.big-card__description > p > a {
+.big-card__description > p {
+  font-size: 18px;
+  font-weight: lighter;
   color: grey;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 140%;
+  text-align: justify;
 }
 
 .big-card__photo > img{
@@ -43,8 +58,4 @@
   @media(min-width: 1000px) {
     min-width: 400px;
   }
-}
-
-.big-card__photo > img:hover{
-  transform: scale(1.1);
 }

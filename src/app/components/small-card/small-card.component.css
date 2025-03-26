@@ -6,9 +6,13 @@
   }
 }
 
+.container__small-card:hover{
+  transform: scale(1.04);
+  cursor: pointer;
+}
+
 .container__small-card-content{
   display: flex;
-  flex-direction: row;
   padding: 20px;
   box-sizing: border-box;
 }
@@ -22,21 +26,26 @@
 
 .small-card__title {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-bottom: 15px;
 }
 
-.small-card__title > P > a{
-  font-size: 16px;
+.small-card__title > P {
+  font-size: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+  font-weight: bold;
+}
+
+.small-card__description > P {
+  font-size: 18px;
   font-weight: lighter;
   color: grey;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  line-height: 140%;
+
 }
 
 .container__small-card__separator{
   margin-top: 10px;
-}
-
-.small-card__photo > img:hover {
-  transform: scale(1.1);
 }
