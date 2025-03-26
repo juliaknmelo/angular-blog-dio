@@ -12,8 +12,8 @@ Disponível em: https://angular-blog-dio-five.vercel.app/
 
 - página home:
 
-<img src="src/assets/home.png">
+<img src="src/assets/home-main.png">
 
 - página da postagem:
 
-<img src="src/assets/postagem.png">
+<img src="src/assets/page-postagem.png">
